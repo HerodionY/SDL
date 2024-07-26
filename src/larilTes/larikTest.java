@@ -17,8 +17,8 @@ public class larikTest {
     public static void main(String[] args) {
         // TODO code application logic here
         int [] a= {32,27,64,18,95,14,90,70,60,37};
-//        System.out.println("Asli");
-//         larik.cetak(a);
+      System.out.println("Asli");
+         larik.cetak(a);
 //         System.out.println("BubleSort Asending : ");
 //        larik.bubleSort(a);
 //        larik.cetak(a);
@@ -42,19 +42,19 @@ public class larikTest {
 //       
 //        
 //        
-//         int cari = 95;
+         int cari = 95;
 //     
 //     
 //larik.cetak(a);
 //       System.out.println("indeks dari sequential search : "+larik.SequentialSearch(a, cari));
-//        System.out.println("indeks dari binary search : "+larik.BinarySearch(a, cari)); 
-//        System.out.println("Indeks dari interpolation search : "+larik.interpolationSearch(a, cari));
-      larik.cetak(a);
-        System.out.println("QuickSort Ascending : ");
-          larik.QuickSort(a);
-           larik.cetak(a);
-          System.out.println("QuickSort Descending : ");
-          larik.QuickSortDes(a);
-          larik.cetak(a);
+System.out.println("indeks dari binary search : "+larik.BinarySearch(a, cari)); 
+System.out.println("Indeks dari interpolation search : "+larik.interpolationSearch(a, cari));
+//      larik.cetak(a);
+//        System.out.println("QuickSort Ascending : ");
+//          larik.QuickSort(a);
+//           larik.cetak(a);
+//          System.out.println("QuickSort Descending : ");
+//          larik.QuickSortDes(a);
+//          larik.cetak(a);
     }
 }
